@@ -1,0 +1,48 @@
+{
+  "results": {
+    "jsquad-1.1-0.2": {
+      "exact_match": 0.2926609635299415,
+      "f1": 6.362663218750227
+    },
+    "jcommonsenseqa-1.1-0.2": {
+      "acc": 0.24754244861483468,
+      "acc_stderr": 0.012907583463467343,
+      "acc_norm": 0.23771224307417338,
+      "acc_norm_stderr": 0.012731053570504131
+    },
+    "jnli-1.1-0.2": {
+      "acc": 0.4704190632703369,
+      "acc_stderr": 0.010118999481492839,
+      "acc_norm": 0.30156121610517667,
+      "acc_norm_stderr": 0.009304239098715018
+    },
+    "marc_ja-1.1-0.2": {
+      "acc": 0.16271666077113547,
+      "acc_stderr": 0.004909222811672898,
+      "acc_norm": 0.16271666077113547,
+      "acc_norm_stderr": 0.004909222811672898
+    }
+  },
+  "versions": {
+    "jsquad-1.1-0.2": 1.1,
+    "jcommonsenseqa-1.1-0.2": 1.1,
+    "jnli-1.1-0.2": 1.1,
+    "marc_ja-1.1-0.2": 1.1
+  },
+  "config": {
+    "model": "hf-causal",
+    "model_args": "pretrained=Taishi-N324/ja_llama_410m_v2",
+    "num_fewshot": [
+      2,
+      3,
+      3,
+      3
+    ],
+    "batch_size": null,
+    "device": "cuda",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
