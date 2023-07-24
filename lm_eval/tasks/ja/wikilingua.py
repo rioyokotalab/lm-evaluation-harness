@@ -155,7 +155,7 @@ VERSIONS = [
     Wikilingua,
     Wikilingua,
     WikilinguaWithJAAlpacaPrompt,
-    WikilinguaWithRinnaInstructionSFT,
+    WikilinguaJaWithRinnaInstructionSFT,
 ]
 
 def construct_tasks():
