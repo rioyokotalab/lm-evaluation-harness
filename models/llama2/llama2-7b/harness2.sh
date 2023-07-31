@@ -1,0 +1,3 @@
+MODEL_ARGS="pretrained=meta-llama/Llama-2-7b-hf,use_accelerate=True"
+TASK="jaqket_v2-0.1-0.3,xlsum_ja-1.0-0.3,xwinograd_ja,mgsm-1.0-0.3"
+python main.py --model hf-causal-experimental --model_args $MODEL_ARGS --tasks $TASK --num_fewshot "1,1,0,5" --device "cuda" --output_path "models/llama2/llama2-7b/result2.json" --batch_size 2  > models/llama2/llama2-7b/harness2.out 2> models/llama2/llama2-7b/harness2.err 
