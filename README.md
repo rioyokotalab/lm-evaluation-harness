@@ -5,7 +5,7 @@
 
 | Model  | Average | [JCommonsenseQA](#jcommonsenseqa) (acc) | [JNLI](#jnli) (acc) | [MARC-ja](#marc-ja) (acc) | [JSQuAD](#jsquad) (exact_match) | eval script | Notes|
 | :--: | --: | --: | --: | --: | --: | :-- | :-- |
-| [rinna-japanese-gpt-neox-3.6b-instruction-ppo](https://huggingface.co/rinna/japanese-gpt-neox-3.6b-instruction-ppo) | 59.63 | 41.38 | 54.03 | 89.71 | 53.42 | [models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-ppo](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-ppo) |- Use v0.4 prompt template |
+| [rinna-japanese-gpt-neox-3.6b-instruction-ppo](https://huggingface.co/rinna/japanese-gpt-neox-3.6b-instruction-ppo) | 59.48 | 41.82 | 54.15 | 90.13 | 51.82 | [models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-ppo](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-ppo) |- Use v0.4 prompt template |
 | [llama-65b](https://huggingface.co/huggyllama/llama-65b) | 59.46 | 60.50 | 31.72 | 71.28 | 74.34 | [models/llama-65b](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/llama/llama-65b) | |
 | [rinna-japanese-gpt-neox-3.6b-instruction-sft-v2](https://huggingface.co/rinna/japanese-gpt-neox-3.6b-instruction-sft-v2) | 56.65 | 38.43 | 53.37 | 89.48 | 45.32 | [models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-sft-v2](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-sft-v2) |- Use v0.4 prompt template|
 | [rinna-japanese-gpt-neox-3.6b-instruction-sft](https://huggingface.co/rinna/japanese-gpt-neox-3.6b-instruction-sft) | 53.77 | 36.55 | 42.19 | 89.02 | 47.32 | [models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-sft](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/rinna/rinna-japanese-gpt-neox-3.6b-instruction-sft) |- Use v0.4 prompt template |
@@ -18,7 +18,6 @@
 | [cyberagent-open-calm-7b](https://huggingface.co/cyberagent/open-calm-7b) | 46.04 | 24.22 | 37.63 | 74.12 | 48.18 | [models/cyberagent/cyberagent-open-calm-7b](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/cyberagent/cyberagent-open-calm-7b) | |
 | [cyberagent-open-calm-1b](https://huggingface.co/cyberagent/open-calm-1b) | 43.88 | 26.9 | 33.57 | 77.92 | 37.12 | [models/cyberagent/cyberagent-open-calm-1b](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/cyberagent/cyberagent-open-calm-1b) | |
 | [abeja-gpt-neox-japanese-2.7b](https://huggingface.co/abeja/gpt-neox-japanese-2.7b) | 37.1 | 20.02 | 39.73 | 74.99 | 13.67 | [models/abeja-gpt-neox-japanese-2.7b](https://github.com/Stability-AI/lm-evaluation-harness/tree/jp-stable/models/abeja-gpt-neox-japanese-2.7b) | |
-| [Taishi-N324/ja_llama_410m](https://huggingface.co/Taishi-N324/ja_llama_410m) | 32.84 | 15.73 | 37.30 | 78.67 | 0.0 | [models/Taishi-N324/ja_llama_410m](https://github.com/rioyokotalab/lm-evaluation-harness/tree/jp-stable/models/Taishi-N324-ja_llama_410m) | |
 
 
 
